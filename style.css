@@ -214,3 +214,24 @@ main .gallery .modal img{
     border-radius: 15px;
     box-shadow: 0 0 30px #000;
 }
+
+main .gallery .modal .close{
+    position: absolute;
+    top: 20px; right: 30px;
+    font-size: 40px; 
+}
+
+main .gallery .modal .close:hover{
+    color: var(--alt_color);
+}
+
+body .arrow{
+    position: fixed;
+    width:60px;
+    bottom: 20px;
+    right: 20px;
+}
+
+body .arrow img{
+    width: 100%;
+}
