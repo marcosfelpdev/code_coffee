@@ -206,5 +206,11 @@ main .gallery .modal{
 
 main .gallery .modal:target{
     display: flex;
+
 }
 
+main .gallery .modal img{
+    width: 65%;
+    border-radius: 15px;
+    box-shadow: 0 0 30px #000;
+}
