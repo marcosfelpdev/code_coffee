@@ -199,7 +199,7 @@ main .gallery .modal{
     top: 0; left: 0;
     z-index: 1;
     width: 100%; height: 100%;
-    background-color: #000000cc;
+    background-color: #000c;
     justify-content: center;
     align-items: center;
 }
@@ -213,6 +213,44 @@ main .gallery .modal img{
     width: 65%;
     border-radius: 15px;
     box-shadow: 0 0 30px #000;
+}
+
+footer {
+    height: 300px;
+    background-color: #000c;
+    padding: 0 100px;
+}
+
+footer .box_footer{
+    height: 100%;
+}
+
+footer .box_footer .address nav ul{
+    padding: 30px 0;
+}
+
+footer .box_footer .address nav ul li a{
+    font-size: 3.2rem;
+    font-weight: 500;
+}
+
+footer .box_footer .address address{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 410px;
+}
+
+footer .box_footer .address .social{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+
+
+footer .box_footer .address .social li a img{
+    width: 40px;
 }
 
 main .gallery .modal .close{
