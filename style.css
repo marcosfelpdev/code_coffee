@@ -215,6 +215,93 @@ main .gallery .modal img{
     box-shadow: 0 0 30px #000;
 }
 
+
+main .gallery .modal .close{
+    position: absolute;
+    top: 20px; right: 30px;
+    font-size: 40px; 
+}
+
+main .gallery .modal .close:hover{
+    color: var(--alt_color);
+}
+
+main .contact {
+    padding: 0 100px 100px;
+}
+
+main .contact .container{
+    width: 100%;
+    height: 700px;
+    background-color: var(--main_color);
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(./assets/background_forms.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main .contact .container .text_contact{
+    
+    h2{
+        font-size: 4rem;
+        font-family: "Borel", sans-serif;
+    }
+    ul li{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+main .contact .container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--text_color_ice);
+    gap: 20px;
+    padding: 20px;
+    width: 400px;
+    height: 550px;
+    border-radius: 12px;
+}
+
+main .contact .container form input{
+    width: 100%;
+    border: solid .2px var(--alt_color);
+    height: 40px;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+main .contact .container form textarea{
+    resize: none;
+    width: 100%;
+    border: solid .2px var(--alt_color);
+    height: 80px;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+main .contact .container form button{
+    padding: 12px 155px;
+    background-color: var(--alt_color);
+    color: var(--text_color_ice);
+    border: none;
+    border-radius: 12px;
+    margin-top: 30px;
+    transition: .3s ease;
+}
+
+main .contact .container form button:hover{
+    background-color: var(--text_color_ice);
+    color: var(--alt_color);
+    border: solid .3px var(--alt_color);
+}
+
 footer {
     height: 300px;
     background-color: #000c;
@@ -258,16 +345,6 @@ footer .box_footer .address .social li a img{
 
 footer .box_footer .address .social li a img:hover{
     transform: scale(1.1);
-}
-
-main .gallery .modal .close{
-    position: absolute;
-    top: 20px; right: 30px;
-    font-size: 40px; 
-}
-
-main .gallery .modal .close:hover{
-    color: var(--alt_color);
 }
 
 body .arrow{
